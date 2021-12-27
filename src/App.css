@@ -37,3 +37,7 @@
     transform: translateY(0px);
   }
 }
+
+.App__logo {
+  width: 15rem;
+}

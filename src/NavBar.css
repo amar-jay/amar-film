@@ -1,0 +1,52 @@
+.NavBar {
+    position: relative;
+    width: 100%;
+    top: 0;
+}
+
+.logo {
+    height: 4rem;
+    /* transition-duration: 500ms; */
+    cursor: pointer;
+    color: red;
+    position: fixed;
+
+    transition-timing-function: ease-in;
+    transition: all 500ms;
+
+}
+.logo:hover {
+    border-radius: 0;
+    box-shadow:0 0 3px 3px #aaa;
+}
+
+.NavBar__content {
+    top: 0;
+}
+
+
+
+.NavBar__logo {
+    border-radius: 1rem;
+    cursor: pointer;
+    position: fixed;
+    padding: 0.5rem;
+    top:0.5rem;
+    left: 2rem;
+}
+
+.NavBar__avatar {
+    border-radius: 1rem;
+    top: 1rem;
+    cursor: pointer;
+    position: fixed;
+    right: 2rem;
+}
+
+.hide {
+    height: 0;
+}
+
+.NavBar__logoName {
+    font-family: cursive;
+}
