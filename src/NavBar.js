@@ -27,9 +27,9 @@ function NavBar() {
     return (
         <div className='NavBar'>
             <header className='NavBar__content'>
-            <img src={logo} alt="No image" className={`logo NavBar__logo ${show && 'hide'}`}/> 
+            <img src={logo} alt="Logo"className={`logo NavBar__logo ${show && 'hide'}`}/> 
             <Banner />
-            <img src={avatar} alt="No image" className={`logo NavBar__avatar ${show && 'hide'}`}/>             
+            <img src={avatar} alt="Avatar" className={`logo NavBar__avatar ${show && 'hide'}`}/>             
             </header>
         </div>
     )

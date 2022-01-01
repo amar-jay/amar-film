@@ -1,4 +1,3 @@
-import Banner from "./Banner";
 import "./HomeScreen.css";
 import NavBar from "./NavBar";
 
