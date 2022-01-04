@@ -1,8 +1,9 @@
 import React, {useState, useEffect} from 'react';
-import "./NavBar.css";
-import logo from "./logo.svg";
-import avatar from "./avatar.jpg";
+import "../styles/NavBar.css";
+import logo from "../resources/logo.svg";
+import avatar from "../resources/avatar.jpg";
 import Banner from './Banner';
+
 
 function NavBar() {
     const [show,setShow] = useState(false);
@@ -11,13 +12,14 @@ function NavBar() {
         
         if (window.scrollY > 600){
             setShow(true)
-            console.log("🍾");
+            // console.log("Scrolled...");
         } else {
             setShow(false)
         }
     }
 
     useEffect(() => {
+        // an evenlistener for scroll
         window.addEventListener("scroll", showNavBar);
         
         return () => window.removeEventListener("scroll", showNavBar);
@@ -35,4 +37,4 @@ function NavBar() {
     )
 }
 
-export default NavBar
+export default NavBar;

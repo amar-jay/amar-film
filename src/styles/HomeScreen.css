@@ -1,0 +1,11 @@
+* {
+    color:white;
+}
+
+.HomeScreen {
+    position: relative;
+    background-color: black;
+    height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}

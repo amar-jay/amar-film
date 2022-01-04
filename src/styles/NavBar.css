@@ -10,6 +10,7 @@
     cursor: pointer;
     color: red;
     position: fixed;
+    z-index: 999;
 
     transition-timing-function: ease-in;
     transition: all 500ms;
