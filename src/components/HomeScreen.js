@@ -1,4 +1,4 @@
-import styles from "../styles/HomeScreen.css";
+import "../styles/HomeScreen.css";
 import NavBar from "./NavBar";
 import request from "../api/request";
 import Rows from "./Rows";

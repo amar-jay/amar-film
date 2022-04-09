@@ -42,7 +42,7 @@ function Rows({title, fetchUrl}) {
                         <div className="card__overlay">
                             <div className="card__header">
                             <svg className="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                 
-                            {movie.backdrop_path && <img className="card__thumb" src={`https://image.tmdb.org/t/p/original/${movie.backdrop_path}`}/>}
+                            {movie.backdrop_path && <img className="card__thumb" alt="thumb nail"src={`https://image.tmdb.org/t/p/original/${movie.backdrop_path}`}/>}
                                 <div className="card__header-text">
                                     <h3 className="card__title">{movie.title|| movie.name || movie.original_name || "Konu yok" }</h3>
                                     <span className="card__status">{movie.first_air_date || movie.release_date || "Unknown Release Date"}</span>
