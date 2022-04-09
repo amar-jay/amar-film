@@ -1,4 +1,4 @@
-import "../styles/HomeScreen.css";
+import styles from "../styles/HomeScreen.css";
 import NavBar from "./NavBar";
 import request from "../api/request";
 import Rows from "./Rows";
@@ -15,20 +15,20 @@ function HomeScreen() {
              <Rows
             title="Action Movies"
             fetchUrl={request.fetchActionMovies}/>
-            {/*
+            
             <Rows
-            title="title.."
+            title="Netflix Originals"
             fetchUrl={request.fetchNetflixOriginals}/>
-            <Rows
-            title="title.."
-            fetchUrl={request.fetchTopRated}/>
+            {/* <Rows
+            title="Top Rated"
+            fetchUrl={request.fetchTopRated}/> */}
             {/* <Rows
             title="title.."
             fetchUrl={req}/> */}
-            {/* <Rows
-            title="title.."
-            fetchUrl={request.fetchTrending}/> */}
-            {/* <Rows
+            <Rows
+            title="Trending"
+            fetchUrl={request.fetchTrending}/>
+             {/* <Rows
             title="title.."
             fetchUrl={request.fetchTrending}/>
             <Rows
@@ -42,4 +42,4 @@ function HomeScreen() {
     )
 }
 
-export default HomeScreen;
+export default HomeScreen

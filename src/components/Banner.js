@@ -15,7 +15,6 @@ function Banner() {
             const req = await axios.get(request.fetchTrending);
             let randomnum = Math.floor(Math.random() * req.data.results.length - 1);
             setRandomMovie(req.data.results[randomnum]);
-            // console.log(req.data.results[0]);
         }
 
         fetchData();
