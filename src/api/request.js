@@ -1,6 +1,6 @@
-import { API_KEY } from "./env";
+// import { API_KEY } from "./env";
 // import 'dotenv/config' 
-// const API_KEY = process.env.API_KEY
+const API_KEY = process.env.API_KEY
 const request = {
     fetchTrending: `/trending/all/week?api_key=${API_KEY}&language=en-US`, 
     fetchTopRated: `/movie/all/week?api_key=${API_KEY}&language=en-US`,
