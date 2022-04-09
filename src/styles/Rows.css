@@ -2,7 +2,9 @@
     box-sizing: border-box;
 }
 
-
+h1 {
+  font-size: 28px;
+}
 :root {
     --surface-color: #222;
     --curve: 40;

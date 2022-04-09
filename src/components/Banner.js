@@ -3,6 +3,7 @@ import banner from '../resources/avatar.jpg';
 import '../styles/Banner.css';
 import axios from "../api/axios";
 import request from "../api/request";
+import { Link } from "react-router-dom";
 
 
 function Banner() {
@@ -40,8 +41,12 @@ function Banner() {
                     {trancate(randomMovie.overview, 200)}
                 </p>
                 <div className="Banner__buttons"> 
+                <Link to="/demo">
                     <button className="Banner__button">Play</button>
+                </Link>
+                <Link to="/mylist">
                     <button className="Banner__button">My List</button>
+                </Link>
                </div>
            </div>
          
